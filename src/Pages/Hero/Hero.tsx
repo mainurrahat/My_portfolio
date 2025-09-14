@@ -13,12 +13,15 @@ import {
 
 const Hero = () => {
   const socials = [
-    { icon: <FaGithub />, link: "https://github.com/yourusername" },
-    { icon: <FaLinkedin />, link: "https://linkedin.com/in/yourusername" },
-    { icon: <FaFacebook />, link: "https://facebook.com/yourusername" },
-    { icon: <FaTwitter />, link: "https://twitter.com/yourusername" },
-    { icon: <FaDiscord />, link: "https://discord.com/users/yourid" },
-    { icon: <FaEnvelope />, link: "mailto:mainurrahat178@gmail.com" },
+    { icon: <FaGithub />, link: "https://github.com/mainurrahat" },
+    { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/mainurrahat/" },
+    {
+      icon: <FaFacebook />,
+      link: "https://www.facebook.com/profile.php?id=61562764231449",
+    },
+    { icon: <FaTwitter />, link: "https://twitter.com/mainurrahat47" },
+    { icon: <FaDiscord />, link: "@mainurrahat47" },
+    { icon: <FaEnvelope />, link: "mailto:mainurrahat51@gmail.com" },
   ];
 
   return (

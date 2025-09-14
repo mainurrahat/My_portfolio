@@ -4,31 +4,37 @@ import {
   FaTwitter,
   FaEnvelope,
   FaPhone,
+  FaDiscord,
 } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   const socialLinks = [
     {
-      icon: <FaGithub size={24} />,
-      href: "https://github.com/mainurrahat178",
       label: "GitHub",
+      href: "https://github.com/mainurrahat",
+      icon: <FaGithub size={24} />,
     },
     {
-      icon: <FaLinkedin size={24} />,
-      href: "https://www.linkedin.com/in/mainurrahat178/",
       label: "LinkedIn",
+      href: "https://www.linkedin.com/in/mainurrahat/",
+      icon: <FaLinkedin size={24} />,
     },
     {
-      icon: <FaTwitter size={24} />,
-      href: "https://twitter.com/mainurrahat178",
       label: "Twitter",
+      href: "https://twitter.com/mainurrahat47",
+      icon: <FaTwitter size={24} />,
+    },
+    {
+      label: "Discord",
+      href: "https://discordapp.com/users/mainurrahat47", // Discord profile link
+      icon: <FaDiscord size={24} />,
     },
   ];
 
   const quickLinks = [
     { name: "Home", path: "/" },
-    { name: "About", path: "/about" },
+    { name: "About", path: "/aboutPage" },
     { name: "Projects", path: "/projects" },
     { name: "Contact", path: "/contact" },
   ];
@@ -55,11 +61,11 @@ const Footer = () => {
           <h2 className="text-lg font-semibold mb-2">Contact</h2>
           <p className="flex items-center space-x-2">
             <FaEnvelope />
-            <span>mainurrahat178@gmail.com</span>
+            <span>mainurrahat51@gmail.com</span>
           </p>
           <p className="flex items-center space-x-2 mt-2">
             <FaPhone />
-            <span>+880 1234 567890</span>
+            <span>+8801890-159627</span>
           </p>
         </div>
 
